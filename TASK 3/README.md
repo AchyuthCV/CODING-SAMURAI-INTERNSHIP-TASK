@@ -28,7 +28,7 @@ Built as part of the **CODING SAMURAI Internship Project**.
 
 ## 📁 Project Structure
 ---project_6_flask_blog/
-│
+-│
 ├── app.py
 ├── database.db
 ├── venv/
