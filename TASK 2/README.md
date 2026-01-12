@@ -41,7 +41,7 @@ The application provides feedback such as **Too High**, **Too Low**, or **Correc
 
 ### 1️⃣ Clone or Download the Repository
 
-git clone <repository-link>
+git clone - <repository-link>
 
 ### 2️⃣ Navigate to the Project Folder
 
