@@ -42,3 +42,24 @@ The application provides feedback such as **Too High**, **Too Low**, or **Correc
 ### 1️⃣ Clone or Download the Repository
 ```bash
 git clone <repository-link>
+
+### 2️⃣ Navigate to the Project Folder
+cd CODING_SAMURAI
+
+. The game ends when the correct number is guessed
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone or Download the Repository
+```bash
+git clone <repository-link>
+2️⃣ Navigate to the Project Folder
+bash
+Copy code
+cd CODING_SAMURAI
+3️⃣ Run the Python File
+bash
+Copy code
+python PROJECT-4_numberguessing_game.py
