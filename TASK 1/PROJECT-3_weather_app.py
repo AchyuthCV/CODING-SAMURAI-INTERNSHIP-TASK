@@ -1,7 +1,7 @@
 import requests
 
 city_name = input("Enter city name: ")
-API_key = "0eb33b90412ae89ceca88903fafe5dd2"
+API_key = "YOUR_API_KEY"
 
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}&units=metric"
 
@@ -15,4 +15,5 @@ if response.status_code == 200:
 else:
     print("Error:", response.status_code)
     print(response.text)
+
 
