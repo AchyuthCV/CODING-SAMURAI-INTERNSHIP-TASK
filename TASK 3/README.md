@@ -59,22 +59,22 @@ git clone https://github.com/your-username/my-flask-blog.git
 cd my-flask-blog
 
 2️⃣ Create Virtual Environment
-python -m venv venv
+- python -m venv venv
 
 3️⃣ Activate Virtual Environment
 
-Windows
+-Windows
 
-venv\Scripts\activate
+-venv\Scripts\activate
 
 
-Mac/Linux
+-Mac/Linux
 
-source venv/bin/activate
+-source venv/bin/activate
 
 4️⃣ Install Dependencies
-pip install flask werkzeug
+-pip install flask werkzeug
 
 5️⃣ Run the Application
-python app.py
+-python app.py
 
