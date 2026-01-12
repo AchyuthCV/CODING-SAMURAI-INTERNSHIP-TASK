@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Blog Posts</title>
+
+  <!-- 🔥 THIS IS THE MISSING PART -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+  <h1>My<span style="color:#e85d4f">Blog</span></h1>
+  <div>
+    <a href="{{ url_for('dashboard') }}">Dashboard</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>All Blog Posts</h2>
+
+  <div class="grid">
+    {% for post in posts %}
+    <div class="card">
+      <img src="{{ url_for('static', filename='images/blog1.jpg') }}" alt="Post image">
+      <div class="card-content">
+        <h3>{{ post[1] }}</h3>
+        <p>{{ post[2] }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <br>
+  <a class="btn" href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+</div>
+
+<footer>
+  © 2026 My Flask Blog
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Welcome, {{ session.username }}</h2>
+
+    <p>You are successfully logged in.</p>
+
+    <div class="nav">
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+<div class="nav">
+    <a href="/create">Create New Post</a> |
+    <a href="/posts">View All Posts</a> |
+    <a href="/logout">Logout</a>
+</div>
+
+
+
+</body>
+</html>
